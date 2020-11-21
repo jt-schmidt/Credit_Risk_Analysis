@@ -16,7 +16,7 @@ UT Data Analytics &amp; Visualization Bootcamp:  Module 17 -- Machine Learning u
 | 5 | Balanced Random Forest Classifier | 0.6830 | 1.00 | 1.00 | N/A |
 | 6 | Easy Ensemble AdaBoost Classifier | 0.7325 | 1.00 | 1.00 | Highest Accuracy / Highest Sensivity |
 
-NOTE: 
+*NOTE: 
 * Precision is essentially equivalent among all models (0.99 ~ 1.00)
 * Recall = Sensitivity
  
