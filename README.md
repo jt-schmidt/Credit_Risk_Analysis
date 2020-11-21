@@ -7,16 +7,16 @@ UT Data Analytics &amp; Visualization Bootcamp:  Module 17 -- Machine Learning u
 <!-- There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models -->
 
 
-|  #  | Machine Learning Model | Balanced Accuracy | Precision | Recall |
-| --- | ---------------------- | ----------------- | --------- | ------ |
-| 1 | Naive Random Oversampling | 0.6480 | 0.99 | 0.60 |
-| 2 | SMOTE Oversampling | 0.6625 | 0.99 | 0.69 |
-| 3 | Undersampling | 0.6625 | 0.99 | 0.42 |
-| 4 | Combination (Over and Under) Sampling | 0.5443 | 0.99 | 0.58 |
-| 5 | Balanced Random Forest Classifier | 0.6830 | 1.00 | 1.00 |
-| 6 | Easy Ensemble AdaBoost Classifier | 0.7325 | 1.00 | 1.00 |
+|  #  | Machine Learning Model | Balanced Accuracy | Precision | Recall/Sensitivity | Judgment |
+| --- | ---------------------- | ----------------- | --------- | ------------------ | -------- |
+| 1 | Naive Random Oversampling | 0.6480 | 0.99 | 0.60 | X |
+| 2 | SMOTE Oversampling | 0.6625 | 0.99 | 0.69 | X |
+| 3 | Undersampling | 0.6625 | 0.99 | 0.42 | Lowest Sensitivity |
+| 4 | Combination (Over and Under) Sampling | 0.5443 | 0.99 | 0.58 | Lowest Accuracy |
+| 5 | Balanced Random Forest Classifier | 0.6830 | 1.00 | 1.00 | X | Highest Precision / Highest Sensitivity |
+| 6 | Easy Ensemble AdaBoost Classifier | 0.7325 | 1.00 | 1.00 | X | Highest Accuracy / Highest Precision / Highest Sensivity |
  
-
+Reference:  [Judging Machine Learning Models](https://www.jeremyjordan.me/evaluating-a-machine-learning-model/#:~:text=The%20three%20main%20metrics%20used,the%20number%20of%20total%20predictions.)
 
 
 
