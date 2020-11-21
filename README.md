@@ -15,6 +15,7 @@ UT Data Analytics &amp; Visualization Bootcamp:  Module 17 -- Machine Learning u
 | 4 | Combination (Over and Under) Sampling | 0.5443 | 0.99 | 0.58 | Lowest Accuracy |
 | 5 | Balanced Random Forest Classifier | 0.6830 | 1.00 | 1.00 | N/A |
 | 6 | Easy Ensemble AdaBoost Classifier | 0.7325 | 1.00 | 1.00 | Highest Accuracy / Highest Precision / Highest Sensivity |
+
 NOTE: Precision is essentially equivalent among all models (0.99 ~ 1.00)
  
 Reference:  [Judging Machine Learning Models](https://www.jeremyjordan.me/evaluating-a-machine-learning-model/#:~:text=The%20three%20main%20metrics%20used,the%20number%20of%20total%20predictions.)
